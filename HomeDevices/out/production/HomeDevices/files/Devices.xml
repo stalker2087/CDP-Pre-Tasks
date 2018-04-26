@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Devices>
+
+	<Device type="Refregerator">
+		<Name>Bloody</Name>
+		<ConsumingPower>1520</ConsumingPower>
+		<PowerSupply>Off</PowerSupply>
+		<State>Off</State>
+	</Device>
+	
+	<Device type="OtherSmallDevice">
+		<Name>Holter</Name>
+		<ConsumingPower>20</ConsumingPower>
+		<PowerSupply>Off</PowerSupply>
+		<State>Off</State>
+	</Device>
+	
+</Devices>
