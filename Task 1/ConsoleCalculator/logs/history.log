@@ -1,0 +1,6 @@
+﻿2018-02-19 00:11:02 INFO  Level: 2 + 2 = 4
+2018-02-19 00:11:08 ERROR Level: java.lang.NumberFormatException: For input string: "p"
+2018-02-19 00:11:21 ERROR Level: java.lang.NumberFormatException: For input string: "["
+2018-02-19 00:11:27 ERROR Level: java.lang.IllegalArgumentException: Invalid operatin: p
+2018-02-19 00:11:39 INFO  Level: 8 / 2 = 4
+2018-02-19 00:11:43 ERROR Level: com.Lushchyts.calculator.DivideByZeroExcption:  Dividing by zero: 8.0 / 0.0

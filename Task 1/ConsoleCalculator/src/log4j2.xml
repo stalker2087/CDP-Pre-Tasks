@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration level="ALL">
+ <Properties>
+  <property name="pattern_1">
+	%d{yyyy-MM-dd HH:mm:ss} %-5level  %logger{1} - %msg%n
+  </property>
+  <property name="pattern_2">
+	%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{1}: %msg%n
+  </property>
+ </Properties>
+  <Appenders>
+    <File name="TxtFile" fileName="logs/history.log" bufferedIO="true">
+	<PatternLayout pattern="${pattern_2}"/>
+    </File>
+  </Appenders>
+  <Loggers>
+    <Root level="ALL">
+    	<appender-ref ref="TxtFile"/>
+    </Root>
+  </Loggers>
+</Configuration>
